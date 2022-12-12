@@ -3,12 +3,19 @@ body {
     font-size: 16px;
   }
   
+
+  .form-check {
+    position: absolute;
+    right: 0;
+    padding: 5px;
+  }
+
   textarea {
     background: transparent;
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    border-left: 1px solid white;
     padding: 10px;
   }
   
@@ -31,22 +38,23 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
-    color: white;
+    background-color: var(--bs-gray-300);
+    color: darkgray;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: var(--bs-red);
     color: white;
+    font-weight: bold;
   }
   
   .future {
-    background-color: #77dd77;
-    color: white;
+    background-color: var(--bs-teal);
+    color: black;
   }
   
   .saveBtn {
-    border-left: 1px solid black;
+    border-left: 1px solid white;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
